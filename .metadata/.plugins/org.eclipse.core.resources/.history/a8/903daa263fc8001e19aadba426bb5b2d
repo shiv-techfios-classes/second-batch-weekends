@@ -1,0 +1,11 @@
+package properties.collections;
+
+public class SortingSet {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

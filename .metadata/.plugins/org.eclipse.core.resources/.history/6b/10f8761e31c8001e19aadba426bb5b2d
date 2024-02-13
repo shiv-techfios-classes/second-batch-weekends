@@ -1,0 +1,18 @@
+package demo.except;
+
+
+
+public class FileReading {
+
+	public static void main(String[] args) {
+
+	  int i = -1;
+	  
+	  if(i<0) {
+		  
+		  throw new ArithmeticException("Division is not valid.");
+	  }
+
+	}
+
+}

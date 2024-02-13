@@ -1,0 +1,24 @@
+package properties.collections;
+
+import java.util.HashSet;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class SortingSet {
+
+	public static void main(String[] args) {
+		
+		Set<String>  names = new HashSet<String>();
+		
+		names.add("Prerna");
+		names.add("Abhimanyu");
+		names.add("Subhash");
+		names.add("Charu");
+		names.add("Ellie");
+		names.add("Ellie");
+		
+		CollectionsMethods.displayCollection(names);
+
+	}
+
+}

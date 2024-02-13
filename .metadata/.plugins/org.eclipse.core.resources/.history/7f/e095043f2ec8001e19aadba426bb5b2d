@@ -1,0 +1,23 @@
+package demo.except;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class FileReading {
+
+	public static void main(String[] args) {
+
+		FileReader fr =  new FileReader("D:\\Code\\test1.txt");
+		
+		BufferedReader buffReader = new BufferedReader(fr);
+		
+		String line  = "" ;
+		
+		line = buffReader.readLine();
+		
+
+	}
+
+}

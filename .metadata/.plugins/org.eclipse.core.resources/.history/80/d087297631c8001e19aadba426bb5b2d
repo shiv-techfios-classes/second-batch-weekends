@@ -1,0 +1,22 @@
+package demo.except;
+
+
+
+public class FileReading {
+
+	public static void main(String[] args) {
+
+		
+		String s1  = "347";
+		
+		String s2 = "$448";
+		
+		Integer i1 = Integer.parseInt(s1);
+		
+		System.out.println("i1=" + i1);
+		
+		Integer i2 = Integer.parseInt(s2);
+		
+	}
+
+}

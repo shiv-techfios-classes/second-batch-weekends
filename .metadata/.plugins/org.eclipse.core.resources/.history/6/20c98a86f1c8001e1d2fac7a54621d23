@@ -1,0 +1,22 @@
+package gen.types;
+
+public class Pair<K,V> {
+	
+	K key;
+	V val;
+	
+	public Pair() {
+		
+	}
+	
+	public Pair(K k, V v) {
+		
+		this.key = k;
+		
+		this.val = v;
+	}
+	
+	
+	
+
+}

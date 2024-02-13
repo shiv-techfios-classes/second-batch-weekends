@@ -1,0 +1,21 @@
+package properties.collections;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapsDemo {
+
+	public static void main(String[] args) {
+		
+		
+		Map<Integer, String> employees =  new HashMap<>();
+		
+		employees.put(101, "Ramesh");
+		employees.put(102, "Naresh");
+
+		employees.put(103, "Purva");
+		employees.put(104, "Apurva");
+
+	}
+
+}

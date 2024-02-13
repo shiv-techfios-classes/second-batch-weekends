@@ -1,0 +1,17 @@
+package demo.except;
+
+public class TestExceptn1 {
+
+	public static void main(String[] args) {
+		
+		int x = 3;
+		
+		int y = 0;
+		
+		double z = x/y;
+		
+		System.out.println("Trying to divide:" + z);
+
+	}
+
+}

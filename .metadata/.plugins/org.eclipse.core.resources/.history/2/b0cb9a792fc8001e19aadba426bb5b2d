@@ -1,0 +1,36 @@
+package demo.except;
+
+public class TestExceptn1 {
+
+	public static void main(String[] args) {
+		
+		int x = 3;
+		
+		int y = 0;
+		
+		System.out.println("Before divide");
+		
+		double z = 0;
+		
+		try {
+			
+			z= x/y;
+			
+		}catch( ArithmeticException ae) {
+			
+			System.out.println("Handled the Arithmetic exception.");
+		}
+		
+		
+		System.out.println("Result:" + z);
+	
+		doOtherStuff();
+
+	}
+
+	private static void doOtherStuff() {
+			System.out.println("Inside doStuff");
+		
+	}
+
+}

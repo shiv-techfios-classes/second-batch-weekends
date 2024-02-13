@@ -1,0 +1,26 @@
+package gen.types;
+
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
+import java.util.Map;
+
+public class CollectionsDemo {
+
+	public static void main(String[] args) {
+		
+		Map<Integer, String> hm = new HashMap<>();
+		
+		Map<Integer, String> lhm = new LinkedHashMap<>();
+		
+		
+		hm.put(1, "Radha");
+		hm.put(3, "Mira");
+		hm.put(2, "Kallesh");
+		hm.put(5, "Mallesh");
+		
+		System.out.println(hm);
+
+	}
+
+}

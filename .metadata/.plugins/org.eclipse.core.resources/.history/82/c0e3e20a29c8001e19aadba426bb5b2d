@@ -1,0 +1,10 @@
+package demo.except;
+
+public class HandlingArraysExcep {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

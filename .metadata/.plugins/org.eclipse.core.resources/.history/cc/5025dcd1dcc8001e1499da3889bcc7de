@@ -1,0 +1,51 @@
+package write.to.properties;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Map.Entry;
+import java.util.Properties;
+import java.util.Set;
+
+public class PropertiesDemo {
+
+	public static void main(String[] args) {
+		
+		Properties prop = new Properties();
+		
+		Properties systemProps = System.getProperties();
+		
+		FileReader fr= null;
+		
+		try {
+			fr = new FileReader("details.properties");
+			
+			prop.load(fr);
+			
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+	
+		displayProperties(prop.entrySet());
+		
+		displayProperties(systemProps.entrySet());
+		
+		
+
+	}
+	
+	
+	public static void displayProperties(Set<Entry<Object, Object>> set) {
+		
+		for(Entry entry: set) {
+
+			System.out.println(entry.getKey() + "=" + entry.getValue());
+					
+		}
+		
+	}
+
+}

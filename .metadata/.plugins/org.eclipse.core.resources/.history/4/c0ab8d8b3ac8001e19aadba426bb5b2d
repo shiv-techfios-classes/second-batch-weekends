@@ -1,0 +1,20 @@
+package properties.collections;
+
+public class GenericDemo<T> {
+	
+//	String prop;
+	
+	T prop;
+	
+	public GenericDemo() {
+		
+	}
+	
+	public GenericDemo(T pr) {
+		
+		this.prop = pr;
+		
+	}
+	
+
+}

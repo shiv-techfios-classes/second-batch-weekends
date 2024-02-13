@@ -1,0 +1,9 @@
+package properties.collections;
+
+public class GenericDemo<T> {
+	
+//	String prop;
+	
+	T prop;
+
+}
